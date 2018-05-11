@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Praxis LIVE</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <style>
+      body {
+        background-color: #111;
+      }
+      footer {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        z-index: 100;
+      }
+      .reveal section img {
+        background: none;
+        border: none;
+        box-shadow: none;
+        max-height: 90vh;
+      }
+      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+        font-weight: normal;
+        text-transform: none;
+      }
+      .reveal pre {
+        width: auto;
+      }
+      .reveal {
+        font-size: 38px;
+      }
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+  </head>
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>Praxis LIVE</h2>
+          <p><em>open-source hybrid visual IDE for live creative coding</em></p>
+        </section>
+
+        <section>
+          <section>
+            <h2>Neil C Smith</h2>
+            <p>Artist &amp; Technologist</p>
+            <p>Oxford, UK</p>
+          </section>
+          <section>
+            <p>Worked for 10yrs in web consultancy for culture, education and third-sector</p>
+            <p>Also over 15yrs in creative applications of Java</p>
+          </section>
+          <section>
+            <p>Now, freelancing related to open-source Java technologies</p>
+            <ul>
+              <li>Praxis LIVE - hybrid visual IDE for live creative coding</li>
+              <li>GStreamer 1.x bindings</li>
+              <li>JAudioLibs - audio utilities (inc. JNAJack)</li>
+              <li>Apache NetBeans</li>
+            </ul>
+          </section>
+          <section>
+            <p>Audio-visual performances</p>
+            <p>Generative / interactive spaces and projections</p>
+          </section>
+          <section data-background-image="assets/sound-pool3.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/justitia.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/meeting-pt-1.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/meeting-pt-2.jpg" data-background-size="contain" data-background-transition="zoom"></section>
+          <section data-background-image="assets/meeting-pt-3.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/meeting-pt-4.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/meeting-pt-5.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/col.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/amen.jpg" data-background-transition="zoom"></section>
+          <section data-background-image="assets/JDD.jpg" data-background-transition="zoom"></section>
+        </section>
+
+        <section>
+          <section>
+            <p>hybrid visual IDE for (live) creative coding</p>
+          </section>
+          <section>
+            <p>hybrid visual IDE <em>and runtime</em> for (live) creative coding</p>
+          </section>
+          <section>
+            <p>easily create projections, interactive spaces, custom VJ tools, sonic instruments, creative IoT</p>
+            <p>use it as a live digital sketchbook, test out ideas, experiment with code</p>
+          </section>
+          <section data-background-image="assets/PL4-rc.png" data-background-transition="zoom"></section>
+          <section>
+            <h2>Key features</h2>
+            <ul>
+              <li class="fragment">Intuitive graphical patching</li>
+              <li class="fragment">Extend at runtime</li>
+              <li class="fragment">Real-time audio / video (OpenGL, GStreamer, JACK)</li>
+              <li class="fragment">MIDI, OSC, GUIs, physical computing</li>
+              <li class="fragment">Create standalone projects</li>
+              <li class="fragment">Cross-platform (Windows, MacOS, Linux ... <em>Pi!</em>)</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Free and open source</h2>
+            <p>built on top of many great projects, including</p>
+            <ul>
+              <li class="fragment">Processing</li>
+              <li class="fragment">GStreamer 1.x</li>
+              <li class="fragment">Apache NetBeans platform and IDE</li>
+            </ul>
+          </section>
+
+        </section>
+
+        <section>
+          <p>Alt-TAB now!</p>
+        </section>
+
+        <section>
+          <section>
+            <h2>History</h2>
+            <div class="fragment">
+              <h3>Praxis LIVE v1 (2011)</h3>
+              <p>Custom OpenGL pipeline, limited coding components</p>
+            </div>
+            <div class="fragment">
+              <h3>Praxis LIVE v2 (2015)</h3>
+              <p>Major rewrite, Processing included,<br>
+                <em>Fork All</em> - custom component coding and real editor</p>
+            </div>
+          </section>
+          <section>
+            <div>
+              <h3>Praxis LIVE v3 (2017)</h3>
+              <p>Java 8, Processing 3, Syphon/Spout, Pi support, third-party libs</p>
+            </div>
+            <div class="fragment">
+              <h3>Praxis LIVE v4 (2018)</h3>
+              <p>Praxis CORE LGPL, recode anything, bezier connections!</p>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Cyber-physical coding</h2>
+            <p class="fragment">Real-time programming of real-time systems</p>
+          </section>
+          <section>
+            <h2>User code as a first class citizen</h2>
+            <p class="fragment">Turtles all the way down</p>
+            <p class="fragment">No scripting components, complex plugin API, etc.</p>
+            <p class="fragment">Code down to the sample</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Forest of Actors architecture</h2>
+          </section>
+          <section>
+            <img src="assets/graph1.png" />
+          </section>
+          <section>
+            <img src="assets/graph2.png" />
+          </section>
+          <section>
+            <img src="assets/graph3.png" />
+          </section>
+          <section>
+            <img src="assets/graph4.png" />
+          </section>
+          <section>
+            <img src="assets/distributed-hubs.jpg" />
+          </section>
+          <section>
+            <img src="assets/pi.jpg" />
+          </section>
+        </section>
+
+        <section>
+          <h2>Praxis LIVE for Processing</h2>
+          <ul>
+            <li class="fragment">Real-time live programming</li>
+            <li class="fragment">Multiple "sketches" and pre-built components</li>
+            <li class="fragment">GStreamer 1.x video playback and capture</li>
+            <li class="fragment">Blending "fixed"</li>
+            <li class="fragment">Resource management and optimization</li>
+            <li class="fragment">Threading / distribution done right</li>
+            <li class="fragment">Professional IDE base</li>
+            <li class="fragment">Added extras (audio, GUI, OSC, MIDI, TinkerForge ...)</li>
+            <li class="fragment">Fully libre stack!</li>
+          </ul>
+        </section>
+        
+        <section>
+          <section>
+            <h2>What might you build?</h2>
+          </section>
+          <section><p>maxD - @supermedia_art</p></section>
+          <section><img src="assets/max-hubs.jpg" /></section>
+          <section><img src="assets/vjuserzero.jpg" /></section>
+          <section><img src="assets/max2.png" /></section>
+          <!--<section><video src="assets/max-vid.mp4" controls /></section>-->
+          <section><p>Mattias Wright / Punkomat</p></section>
+          <section><img src="assets/mattias-tinkerforge.jpg" /></section>
+          <section><img src="assets/mattias-1.png" /></section>
+          <section><img src="assets/mattias-2.png" /></section>
+          <section><p>@y8</p></section>
+          <section><img src="assets/y8-pl4.jpg" /></section>
+        </section>
+
+        <section>
+          <h2>Nice things people have said</h2>
+          <p><em>Praxis LIVE is an amazing hybrid of programming and node-based. It's a great way to build friendly reusable code.</em> Howard Wong</p>
+          <p><em>Overall, speed of development with Praxis is stunning. Real-time coding FTW!</em> @y8</p>
+          <p><em>I'm a big fan of Praxis LIVE ... very fun thing to noodle with.</em> Dan Hett</p>
+          <p><em>Monumental</em> MaxD</p>
+        </section>
+
+        <section>
+          <h2>Workshop</h2>
+          <p>Tomorrow, 10:30-12:30</p>
+        </section>
+        
+        <section>
+          <h2>Thank you!</h2>
+          <p>www.praxislive.org</p>
+          <p>https://github.com/praxis-live/</p>
+          <p>https://twitter.com/PraxisLIVE</p>
+          <p>https://gitter.im/praxis-live</p>
+        </section>
+
+
+      </div>
+    </div>
+
+    <footer>
+      <a href="http://www.praxislive.org"><img src="assets/praxislive.png" /></a>
+    </footer>
+
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          {src: 'plugin/markdown/marked.js'},
+          {src: 'plugin/markdown/markdown.js'},
+          {src: 'plugin/notes/notes.js', async: true},
+          {src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+              hljs.initHighlightingOnLoad();
+            }}
+        ]
+      });
+    </script>
+  </body>
+</html>
